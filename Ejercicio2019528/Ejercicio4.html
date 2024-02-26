@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado2019528</title>
+    <style>
+        .btn{
+            border: none; 
+            color: black; 
+            padding: 14px 28px; 
+            cursor: pointer; 
+            border-radius: 5px; 
+            background-color: white; border: 2px solid #e7e7e7; 
+        }
+
+    </style>
+</head>
+<body >
+    <center><h1 class="text">JUEGO AHORCADO</h1></center>
+    <center><div>   
+        <div>
+            <canvas id="canvas" width="400" height="400" style="border: 4px solid #000000;">
+                <script>
+                    var c = document.getElementById("canvas");
+                    var ctx = c.getContext("2d");
+                    ctx.moveTo(100, 100);
+                    ctx.lineTo(200, 100);
+                    ctx.stroke();
+                </script>
+                <script>
+
+                </script>
+            </canvas>
+        </div>
+        <div>
+            <button class="btn">Q</button>
+            <button class="btn">W</button>
+            <button class="btn">E</button>
+            <button class="btn">R</button>
+            <button class="btn">T</button>
+            <button class="btn">Y</button>
+            <button class="btn">U</button>
+            <button class="btn">I</button>
+            <button class="btn">O</button>
+            <button class="btn">P</button>
+        </div>
+        <div>
+            <button class="btn">A</button>
+            <button class="btn">S</button>
+            <button class="btn">D</button>
+            <button class="btn">F</button>
+            <button class="btn">G</button>
+            <button class="btn">H</button>
+            <button class="btn">J</button>
+            <button class="btn">K</button>
+            <button class="btn">L</button>
+        </div>
+        <div>
+            <button class="btn">Z</button>
+            <button class="btn">X</button>
+            <button class="btn">C</button>
+            <button class="btn">V</button>
+            <button class="btn">B</button>
+            <button class="btn">N</button>
+            <button class="btn">M</button>
+        </div>
+    </div></center>
+    <script> </script>
+</body>
+</html>
